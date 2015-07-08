@@ -1,6 +1,6 @@
 {
   "name": "loremgenerator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Generates Lorem placeholder text and people names and placeholder images for AngularJS applications.",
   "main": "gulpfile.js",
   "dependencies": {
