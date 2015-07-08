@@ -1,6 +1,6 @@
-angular.module('LoremGen')
+angular.module('LoremGen',[])
 
-.factory("TextGenerator",function () {
+.factory("TextGenerator",[function () {
   return {
     generateText : function(len) {
         var words = ['lorem',
@@ -215,4 +215,4 @@ angular.module('LoremGen')
       return paragraphs;
     }
   };
-});
+}])

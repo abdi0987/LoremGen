@@ -1,6 +1,4 @@
-angular.module('LoremGen',[])
-
-.directive('genText', function(TextGenerator) {
+.directive('genText',['TextGenerator',function(TextGenerator) {
     return {
         restrict: 'A',
         scope: {
@@ -30,4 +28,4 @@ angular.module('LoremGen',[])
           }
         }
     };
-});
+}]);
